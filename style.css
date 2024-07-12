@@ -12,10 +12,10 @@ ion-icon {
 }
 
 .filmCard {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
 }
 
 .swiper-slide {
-    width: 350px !important;
+    width: 400px !important;
 }

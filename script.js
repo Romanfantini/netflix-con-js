@@ -178,7 +178,7 @@ const createSlide1 = (imgSlide1) => {
     
     img.src = imgSlide1.imgUrl
     img.alt = imgSlide1.alt
-    img.setAttribute("class", "h-100")
+    img.setAttribute("class", "h-100 w-100 object-fit-fil")
 
     filmCard.append(img)
     divSwiper.append(filmCard)
