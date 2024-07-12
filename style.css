@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+ion-icon {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.logo {
+    height: 60px;
+}
