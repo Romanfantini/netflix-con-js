@@ -10,3 +10,12 @@ ion-icon {
 .logo {
     height: 60px;
 }
+
+.filmCard {
+    width: 350px;
+    height: 350px;
+}
+
+.swiper-slide {
+    width: 350px !important;
+}

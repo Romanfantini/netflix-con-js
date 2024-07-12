@@ -167,9 +167,27 @@ navbarList.forEach(navItem => {
 })
 
 
+const createSlide1 = (imgSlide1) => {
+    const divSwiper = document.createElement("div");
+    divSwiper.setAttribute("class", "swiper-slide")
 
+    const filmCard = document.createElement("div");
+    filmCard.setAttribute("class","filmCard")
+    
+    const img = document.createElement("img");
+    
+    img.src = imgSlide1.imgUrl
+    img.alt = imgSlide1.alt
+    img.setAttribute("class", "h-100")
 
+    filmCard.append(img)
+    divSwiper.append(filmCard)
+    slideshow1.appendChild(divSwiper)    
+}
 
+imgRow1.forEach(row1 => {
+    createSlide1(row1)
+})
 
 
 const swiper = new Swiper(".swiper", {
