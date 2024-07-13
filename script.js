@@ -293,16 +293,12 @@ const swiper = new Swiper(".swiper", {
       prevEl: ".swiper-button-prev",
     },
     slidesPerView: "auto",
-    spaceBetween: 50,
+    spaceBetween: 20,
      autoplay: {
-      deelay: 1,
+      deelay: 500,
      },
    
-    effect: 'coverflow',
-    coverflowEffect: {
-      rotate: 1,
-      slideShadows: true,
-    },
+    
     
 
     
